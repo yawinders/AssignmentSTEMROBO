@@ -1,0 +1,56 @@
+.appContainer {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.studentTable {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.studentTable th,
+.studentTable td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: left;
+}
+
+.studentTable th {
+    cursor: pointer;
+}
+
+.studentTable tr:hover {
+    background-color: #f5f5f5;
+}
+
+/* pagination */
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* page numbers */
+.pagination span {
+    cursor: pointer;
+    padding: 8px 12px;
+    margin: 0 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+
+}
+
+
+.pagination span:hover {
+    background-color: #909498;
+    color: white;
+}
+
+
+.pagination span.active {
+    background-color: #909498;
+    color: white;
+    font-weight: bold;
+}
